@@ -1,0 +1,34 @@
+opa_queue.lo : opa_queue.c ./opa_queue.h ./opa_primitives.h ./opa_config.h \
+  ./opa_util.h ./primitives/opa_gcc_intel_32_64.h \
+  ./primitives/opa_gcc_intel_32_64_barrier.h \
+  ./primitives/opa_gcc_intel_32_64_ops.h ./primitives/opa_emulated.h \
+  /usr/include/pthread.h /usr/include/features.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/sys/cdefs.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /opt/pgi/13.6.0/linux86-64/13.6/include/sched.h \
+  /usr/include/sched.h /opt/pgi/13.6.0/linux86-64/13.6/include/bits/types.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stddef.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.3/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/bits/sched.h \
+  /usr/include/bits/sched.h /usr/include/bits/time.h /usr/include/xlocale.h \
+  /usr/include/signal.h /usr/include/bits/sigset.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h 
+opa_queue.c ./opa_queue.h ./opa_primitives.h ./opa_config.h \ :
+  ./opa_util.h ./primitives/opa_gcc_intel_32_64.h \ :
+  ./primitives/opa_gcc_intel_32_64_barrier.h \ :
+  ./primitives/opa_gcc_intel_32_64_ops.h ./primitives/opa_emulated.h \ :
+  /usr/include/pthread.h /usr/include/features.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/sys/cdefs.h /usr/include/sys/cdefs.h \ :
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \ :
+  /usr/include/gnu/stubs-64.h /usr/include/endian.h /usr/include/bits/endian.h \ :
+  /usr/include/bits/byteswap.h /opt/pgi/13.6.0/linux86-64/13.6/include/sched.h \ :
+  /usr/include/sched.h /opt/pgi/13.6.0/linux86-64/13.6/include/bits/types.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stddef.h \ :
+  /usr/lib64/gcc/x86_64-suse-linux/4.3/include/stddef.h \ :
+  /usr/include/bits/typesizes.h /usr/include/time.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/bits/sched.h \ :
+  /usr/include/bits/sched.h /usr/include/bits/time.h /usr/include/xlocale.h \ :
+  /usr/include/signal.h /usr/include/bits/sigset.h \ :
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h  :

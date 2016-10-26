@@ -1,0 +1,1 @@
+./configure --prefix=/global/u1/j/jialin/install-mpich --disable-fortran --enable-static

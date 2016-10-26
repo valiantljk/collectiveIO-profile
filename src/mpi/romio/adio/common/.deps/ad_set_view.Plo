@@ -1,0 +1,60 @@
+adio/common/ad_set_view.lo : adio/common/ad_set_view.c ./adio/include/adio.h \
+  ./adio/include/romioconf.h ./adio/include/nopackage.h \
+  /global/homes/j/jialin/mpich-ccpute/src/include/mpi.h /usr/include/stdint.h \
+  /usr/include/features.h /opt/pgi/13.6.0/linux86-64/13.6/include/sys/cdefs.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+  /global/homes/j/jialin/mpich-ccpute/src/include/mpio.h /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h /opt/pgi/13.6.0/linux86-64/13.6/include/sys/types.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/bits/types.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stddef.h \
+  /usr/lib64/gcc/x86_64-suse-linux/4.3/include/stddef.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/string.h \
+  /usr/include/xlocale.h /usr/include/stdio.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stdarg.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/va_list.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stdlib.h /usr/include/stdlib.h \
+  /opt/pgi/13.6.0/linux86-64/13.6/include/alloca.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  ./adio/include/adioi.h ./adio/include/adioi_error.h \
+  /global/homes/j/jialin/mpich-ccpute/src/include/glue_romio.h \
+  ./adio/include/adioi_fs_proto.h ./adio/include/mpio_error.h \
+  ./adio/include/mpipr.h ./adio/include/adio_extern.h 
+adio/common/ad_set_view.c ./adio/include/adio.h \ :
+  ./adio/include/romioconf.h ./adio/include/nopackage.h \ :
+  /global/homes/j/jialin/mpich-ccpute/src/include/mpi.h /usr/include/stdint.h \ :
+  /usr/include/features.h /opt/pgi/13.6.0/linux86-64/13.6/include/sys/cdefs.h \ :
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \ :
+  /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \ :
+  /global/homes/j/jialin/mpich-ccpute/src/include/mpio.h /usr/include/fcntl.h \ :
+  /usr/include/bits/fcntl.h /opt/pgi/13.6.0/linux86-64/13.6/include/sys/types.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/bits/types.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stddef.h \ :
+  /usr/lib64/gcc/x86_64-suse-linux/4.3/include/stddef.h \ :
+  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \ :
+  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \ :
+  /usr/include/sys/select.h /usr/include/bits/select.h \ :
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \ :
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \ :
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/string.h \ :
+  /usr/include/xlocale.h /usr/include/stdio.h /usr/include/libio.h \ :
+  /usr/include/_G_config.h /usr/include/wchar.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stdarg.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/va_list.h \ :
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/stdlib.h /usr/include/stdlib.h \ :
+  /opt/pgi/13.6.0/linux86-64/13.6/include/alloca.h /usr/include/errno.h \ :
+  /usr/include/bits/errno.h /usr/include/linux/errno.h /usr/include/asm/errno.h \ :
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \ :
+  ./adio/include/adioi.h ./adio/include/adioi_error.h \ :
+  /global/homes/j/jialin/mpich-ccpute/src/include/glue_romio.h \ :
+  ./adio/include/adioi_fs_proto.h ./adio/include/mpio_error.h \ :
+  ./adio/include/mpipr.h ./adio/include/adio_extern.h  :

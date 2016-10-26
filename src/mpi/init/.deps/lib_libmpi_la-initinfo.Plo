@@ -1,0 +1,10 @@
+src/mpi/init/lib_libmpi_la-initinfo.lo : src/mpi/init/initinfo.c ./src/include/mpi.h /usr/include/stdint.h \
+  /usr/include/features.h /opt/pgi/13.6.0/linux86-64/13.6/include/sys/cdefs.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h ./src/include/mpio.h \
+  ./src/include/mpichinfo.h 
+src/mpi/init/initinfo.c ./src/include/mpi.h /usr/include/stdint.h \ :
+  /usr/include/features.h /opt/pgi/13.6.0/linux86-64/13.6/include/sys/cdefs.h \ :
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \ :
+  /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h ./src/include/mpio.h \ :
+  ./src/include/mpichinfo.h  :
