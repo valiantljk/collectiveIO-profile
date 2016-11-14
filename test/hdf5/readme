@@ -1,0 +1,10 @@
+#on cori/edison
+module load cray-hdf5-parallel
+cc -o h5read/write h5read/write.c
+
+sbatch run.sh # replace mpirun with srun
+
+
+#on other machine
+gcc -o h5read/write h5read/write.c
+./run.sh 
